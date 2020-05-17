@@ -1,0 +1,265 @@
+
+<!-- saved from url=(0035)http://localhost:8000/suppliers.php -->
+<html xmlns="http://www.w3.org/1999/xhtml" class="js-focus-visible"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css" media="screen">#phone {visibility:hidden}#phone {visibility:visible}</style><style type="text/css">
+@font-face {
+  font-weight: 400;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Regular.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 400;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Italic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 500;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Medium.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 500;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 700;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Bold.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 700;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+  font-weight: 900;
+  font-style:  normal;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-Black.woff2') format('woff2');
+}
+@font-face {
+  font-weight: 900;
+  font-style:  italic;
+  font-family: 'Inter-Loom';
+
+  src: url('https://cdn.loom.com/assets/fonts/inter/Inter-UI-BlackItalic.woff2') format('woff2');
+}</style><script type="text/javascript" charset="UTF-8" src="./suppliers_files/common.js"></script><script type="text/javascript" charset="UTF-8" src="./suppliers_files/util.js"></script><script type="text/javascript" charset="UTF-8" src="./suppliers_files/AuthenticationService.Authenticate"></script></head><body onload="load()" onunload="GUnload()" style="">#
+
+
+	
+		
+		<link rel="stylesheet" href="./suppliers_files/grid.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="./suppliers_files/bootstrap.min.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<link rel="stylesheet" href="./suppliers_files/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+		<script src="./suppliers_files/jquery.min.js"></script>
+		<script src="./suppliers_files/cycle.js" type="text/javascript" charset="utf-8"></script>
+		<script src="./suppliers_files/swfobject.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript" charset="utf-8">
+			$(document).ready(function(){$('.slideshow').cycle({fx:'fade'});});
+		</script>
+		<title>P.J. Preston - Suppliers</title>
+		<meta name="description=" content="PJ Preston auto electrical - auto electrical car parts grimsby">
+		<script src="./suppliers_files/maps" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    //<![CDATA[
+
+    function load() {
+    
+			if (GBrowserIsCompatible()) {
+        var map = new GMap2(document.getElementById("google_map"));
+    
+				map.setCenter(new GLatLng(53.5740, -0.0743), 15);
+			
+				var mapView = new GMapTypeControl();
+				map.addControl(mapView);	
+				var zooming = new GSmallMapControl();
+				map.addControl(zooming);
+				var scale = new GScaleControl();
+				map.addControl(scale);
+				 var point = (new GLatLng(53.5740, -0.0743));
+				 var marker = new GMarker(point);
+				 map.addOverlay(marker);
+			    var address = GEvent.addListener(marker, "click", function(){
+			 	    map.openInfoWindow(point, "P.J. Preston Limited,<br /> 26-30 Kent Street,<br /> Grimsby,<br /> DN32 7DG.");
+			     });	
+				
+			
+      }
+    }
+
+    //]]>
+    </script>
+	
+	
+		<div class="container_12" id="container">
+			<div id="header">
+				<div class="grid_4">
+					<a href="http://www.pjpreston.com/">
+						<img src="./suppliers_files/logo.png" alt="PJ Preston" class="logo">
+					</a>
+				</div>
+			</div>
+			<div class="grid_12">
+				<div class="outterEdge">
+					<script type="text/javascript">
+    swfobject.embedSWF("images/phone.swf", "phone", "111", "120", "9.0.0");
+    </script>
+					<div id="contentArea">
+						<div class="topEdge">
+							<img src="./suppliers_files/head.png" alt="">
+						</div>
+<!-- left sidebar -->
+						<div class="grid_4 alpha omega">
+							<div id="sidebar">
+								<ul class="menu">
+									<li>
+										<a href="http://www.pjpreston.com/">About Us</a>
+									</li>
+									<li>
+										<a href="http://www.pjpreston.com/suppliers.php">Suppliers</a>
+									</li>
+									<!--<li>
+										<a href="#">Services</a>
+									</li>-->
+									<li>
+										<a href="http://www.pjpreston.com/contactus.php">Contact Us</a>
+									</li>
+								</ul>
+								
+								<!-- contact us side bar -->
+								<div class="contactSide">
+									<form action="http://localhost:8000/suppliers.php" method="post">
+										<input type="text" name="name" placeholder="Name">
+										<input type="text" name="email" placeholder="Email Address">
+										<textarea name="message" placeholder="Message">											
+										</textarea>
+										<br>
+										<input type="submit" id="submit" value="submit" class="btn btn-inverse" name="submit">
+									</form>
+									
+								</div>
+								
+								<div class="suppliersSide">
+									
+									
+									
+								</div>
+							
+								
+							</div>
+						</div>						
+						<!-- content area -->
+						<div class="grid_8 alpha omega">
+							
+							<div id="contentPart">
+															<h1>Our Suppliers</h1>
+							<div id="suppliers">
+							<div class="row">
+								
+								<div class="span2">
+									<a href="http://www.hella.com/" target="blank">
+										<img src="http://www.pjpreston.com/images/logos/hella.jpg" style="padding-top: 30px;">
+										</a>
+								</div>
+								
+								<div class="span2">
+									<a href="http://www.amber-valley.co.uk/" target="blank"> <img src="http://www.pjpreston.com/images/logos/AmberValley_logo.jpg"></a>
+								</div>
+								
+								<div class="span2">
+									<a href="http://guardianauto.co.uk/" target="blank"><img src="http://www.pjpreston.com/images/logos/g.gif" style="padding-top: 30px;"></a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+							
+							
+							<div class="row">
+								
+								<div class="span2">
+									<a href="http://durite.co.uk/" target="blank"><img src="http://www.pjpreston.com/images/logos/durite.gif"></a>
+								</div>
+								
+								<div class="span2">
+									 <a href="http://www.hc-cargo.com/" target="blank"><img src="http://www.pjpreston.com/images/logos/Hccargo_logo.jpg"></a>
+								</div>
+								
+								<div class="span2">
+								<a href="http://www.brigade-electronics.com/" target="blank">	<img src="http://www.pjpreston.com/images/logos/brigade.gif"></a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+							
+							<div class="row">
+								
+								<div class="span2">
+									<a href="http://truck-lite.eu.com/" target="blank"><img src="http://www.pjpreston.com/images/logos/truck.jpg"></a>
+								</div>
+								
+								<div class="span2">
+									<a href="http://www.deltadesign.co.uk/" target="blank"> <img src="http://www.pjpreston.com/images/logos/delta-design.gif"></a>
+								</div>
+								
+								<div class="span2">
+									<a href="http://britax-pmg.com/" target="blank"><img src="http://www.pjpreston.com/images/logos/britax.gif"></a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+							
+							<div class="row">
+								
+								<div class="span2">
+									<a href="http://www.yuasaeurope.com/" target="blank"><img src="http://www.pjpreston.com/images/logos/yuasa.gif"></a>
+								</div>
+								
+								<div class="span2">
+									 <a href="http://www.visionalert.co.uk/" target="blank"><img src="http://www.pjpreston.com/images/logos/vision-alert.gif" style="padding-top: 30px;"></a>
+								</div>
+								
+								<div class="span2">
+									 <a href="http://www.bosch.com/content/language2/html/index.htm" target="blank"><img src="http://www.pjpreston.com/images/logos/boush.jpg"></a>
+								</div>
+							</div>
+							
+							<div class="clearfix"></div>
+							
+							
+							</div>
+							
+							
+								<div class="clearfix"></div>
+							</div>
+						</div>
+<div class="clearfix"></div>
+					</div>
+					<p class="grid_4 push_4 footer">
+						@ copyright 2013
+					</p>
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+	
+
+</body><loom-container id="lo-engage-ext-container"><div></div><loom-shadow classname="resolved"></loom-shadow></loom-container></html>

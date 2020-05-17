@@ -1,0 +1,314 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/***************************************
+ * styles by dd 
+ ***************************************/
+
+body{
+	background: #2c2c50 url(../images/bk.jpg) 0 0 repeat-x;
+	font-family: arial;
+
+}
+
+#container{
+	
+}
+
+/* header */
+.logo{
+	margin: 8px 33px;
+}
+
+
+.outterEdge{
+  background: #19397c;
+border-radius: 5px;
+padding-top: 2px;
+color: #fff;
+padding-bottom: 10px;
+}
+
+#contentArea{
+  background: #fff;
+  margin: 2px;
+  margin-left: 4px;
+  margin-right: 4px;
+  margin-bottom: 10px;
+  position: relative;
+  min-height: 400px;
+  color: #000000;
+  padding-bottom: 20px;
+}
+
+.footer{
+text-align: center;
+ margin-bottom: 10px;
+}
+
+.topEdge{
+	position: absolute;
+	left: 353px;
+	top: -104px;
+
+	width: 597px;
+	height: 306px;
+	
+}
+/*sidebar*/
+
+#sidebar{
+padding-top: 40px;
+padding-left: 30px;
+}
+
+/* contact foirm */
+
+#sidebar .contactSide{
+  padding-top: 50px;
+padding-left: 10px;
+margin-top: 30px;
+margin-bottom: 30px;
+width: 254px;
+height: 206px;
+background: url(../images/contactSide.png) 0 0 no-repeat;
+}
+
+.contactSide input{
+   width: 220px;
+   box-shadow: 0 0 5px #666 inset;
+   height:20px; 
+   line-height:20px;  
+   text-indent:5px; 
+   margin-bottom: 4px;
+}
+
+
+
+.contactSide textarea{
+  width: 220px;
+height: 80px;
+   box-shadow:0 0 5px #666 inset; 
+   line-height:20px;  
+   text-indent:5px; 
+margin-bottom: 4px;
+overflow: auto;
+overflow-x: hidden;
+}
+
+
+.contactSide #submit{
+  width: 70px;
+background: #a6a6a6;
+float: right;
+margin-right: 20px;
+padding: 3px;
+height: 30px;
+cursor: pointer;
+color: #fff;
+}
+
+/** suppliersvside */
+.suppliersSide{
+	background: url(../images/suppliersSide.png) 0 0 no-repeat;
+	height: 171px;
+	 width: 264px;
+	 margin-bottom: 30px;
+}
+/* menu */
+
+.menu{
+}
+
+.menu li{
+width: 228px;
+height: 27px;
+padding-left: 20px;
+padding-top: 8px;
+background: url(../images/list-bk.png) 0 0 no-repeat;
+}
+
+.menu li a{
+color: #fff;
+text-decoration: none; 
+font-size: 14px;
+font-weight: bold;
+}
+
+.menu li a:hover{
+text-decoration: underline;
+}
+
+/* content right area */
+#contentPart{
+  margin-top: 180px;
+  margin-left: 50px;
+  font-family: arial;
+}
+
+#contentPart h1{
+  color: #19397c;
+  font-size: 26px;
+  padding-bottom: 10px;
+}
+
+.topImg{
+  float: left;
+width: 220px;
+}
+
+.topPara{
+  margin-left: 150px;
+  margin-top:  -60px;
+  line-height: 145%;
+  color: #414141;
+  font-size: 15px;
+  padding: 65px;
+  padding-bottom: 0px;
+}
+
+.spacer{
+background: #eeeeee;
+height: 14px;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-right: 50px;
+}
+
+/* bottom home section */
+.bottomPara p{
+line-height: 145%;
+color: #414141;
+font-size: 15px;
+padding-bottom: 0px;
+padding-right: 20px;
+}
+
+.slideshow img{
+  border: 3px solid #eeeeee;
+}
+
+
+
+#suppliers{
+  padding-top: 20px;
+padding-bottom: 30px;
+}
+
+#suppliers .row{
+  margin-bottom: 30px;
+}
+
+#suppliers .span2{
+  width: 120px;
+margin-right: 55px;
+
+}
+#suppliers .span2 img{
+  display: block;
+margin: auto;
+}
+
+
+ #contentPart input[type=text], #contentPart textarea{
+  width: 350px;
+box-shadow: 0 0 5px #666 inset;
+height: 20px;
+line-height: 20px;
+text-indent: 5px;
+margin-bottom: 4px;
+margin-bottom: 8px;
+}
+
+#contentPart textarea{
+  height: 80px;
+}
+
+#contactForm .span2{
+  color: #414141;
+}
+
+#contactForm{
+  margin-top: 20px;
+}
+
+#contactForm #submit{
+  float: right;
+  margin-right: 15px;
+width: 70px;
+background: #a6a6a6;
+padding: 3px;
+height: 30px;
+cursor: pointer;
+color: #fff;
+box-shadow: 0 0 5px #666 inset;
+text-indent: 5px;
+}
+
+#mp{
+  margin-left: 0;
+width: 320px;
+}
+
+.address{
+  line-height: 22px;
+color: #414141;
+width: 200px;
+padding-bottom: 40px;
+font-size: 13px;
+}
+
+.speratpor{
+  clear:both;
+  height: 14px;
+background: #eeeeee;
+margin-top: 20px;
+margin-bottom: 30px;
+}
